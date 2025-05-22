@@ -1,5 +1,0 @@
-Training002 Contains:
-
--CSS Borders
--CSS Margins
--CSS Paddings
