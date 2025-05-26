@@ -117,3 +117,9 @@ Letting the content define the height (no fixed height) is usually best for resp
   outline: solid 5px #f0f;
   outline-offset: 20px;
 }
+
+/* Contoh dibawah digunakan untuk melakukan style pada text element yang ada pada html */
+#Text_CSS p:first-of-type {
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
