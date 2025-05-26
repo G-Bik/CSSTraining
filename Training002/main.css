@@ -123,3 +123,39 @@ Letting the content define the height (no fixed height) is usually best for resp
   color: rgb(255, 0, 0);
   text-align: center;
 }
+
+/* Contoh dibawah digunakan untuk melakukan style pada text element yang ada pada html, dengan mengatur arah teks dari kanan ke kiri (RTL) */
+footer p:first-of-type {
+  direction: rtl; /* Mengatur arah teks dari kanan ke kiri */
+  unicode-bidi: bidi-override; /* Memastikan teks ditampilkan dengan benar dalam arah RTL */
+  text-align: center;
+}
+
+/* Contoh dibawah digunakan untuk melakukan style pada text element yang ada pada html, dengan membuat decoration overline pada teks serta style yang lain */
+#Text_CSS h3:first-of-type {
+  text-decoration: overline; /* Mengatur teks menjadi garis atas */
+  text-decoration-color: #ff0000; /* Mengatur warna garis atas */
+  text-decoration-style: solid; /* Mengatur style garis atas menjadi putus-putus */
+  text-decoration-thickness: 2px; /* Mengatur ketebalan garis atas */
+  font-family: Arial, sans-serif; /* Mengatur jenis font */
+  font-size: 16px; /* Mengatur ukuran font */
+  font-weight: bold; /* Mengatur ketebalan font */
+  text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+  letter-spacing: 2px; /* Mengatur jarak antar huruf */
+  line-height: 1.5; /* Mengatur tinggi baris */
+}
+
+/* Contoh dibawah digunakan untuk melakukan style pada text element yang ada pada html, dengan membuat transform capitalize dan spacing pada teks */
+#Layout_CSS p:first-of-type {
+  text-transform: capitalize
+    /* Mengubah teks menjadi huruf awal menjadi kapital */;
+  text-indent: 50px; /* Mengatur tab awal paragraf agar terlihat lebih seperti buku */
+  letter-spacing: 3px; /* Mengatur jarak antar huruf */
+  word-spacing: 4px; /* Mengatur jarak antar kata */
+  white-space: pre-wrap; /* Mengatur spasi putih agar teks tetap terformat dengan baik */
+}
+
+/* Contoh dibawah digunakan untuk melakukan style pada text element yang ada pada html, dengan membuat shadow pada teks */
+.Second_Step h2:first-of-type {
+  text-shadow: 5px 5px 8px rgb(3, 95, 15); /* Mengatur bayangan teks */
+}
